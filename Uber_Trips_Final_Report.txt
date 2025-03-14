@@ -1,0 +1,34 @@
+
+### Uber Trips Forecasting Project - Final Report
+
+**Objective:** Predict the number of Uber trips using various regression models.
+
+**Steps Followed:**
+1. **Data Preprocessing:**
+   - Loaded dataset and converted 'Date/Time' column to datetime format.
+   - Extracted hour, day, and month features for better analysis.
+
+2. **Exploratory Data Analysis (EDA):**
+   - Visualized trip patterns by month, day, and hour.
+   - Identified key trends and distributions.
+
+3. **Feature Engineering:**
+   - Created dummy variables for 'Base' feature.
+   - Defined X (features) and y (target).
+
+4. **Model Building:**
+   - Implemented **Linear Regression**, **Random Forest**, **XGBoost**, and **Gradient Boosting** models.
+   - Performed hyperparameter tuning using **GridSearchCV**.
+
+5. **Model Evaluation:**
+   - Compared models using **MSE**, **MAE**, and **R²** score.
+   - Gradient Boosting provided the most balanced performance.
+
+6. **Final Recommendation:**
+   - **Gradient Boosting Regressor** is recommended for optimal accuracy and stability.
+
+7. **Future Enhancements:**
+   - Improve feature engineering by integrating weather data or traffic information.
+   - Explore additional ensemble models for enhanced predictions.
+
+**Conclusion:** This project effectively predicts Uber trips with a strong focus on data cleaning, modeling, and evaluation.
